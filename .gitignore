@@ -49,6 +49,10 @@ SourceArt/**/*.tga
 Binaries/*
 Plugins/**/Binaries/*
 
+VirtualStudio/Binaries/*
+VirtualStudio/Intermediate/*
+VirtualStudio/Saved/*
+
 # Builds
 Build/*
 
