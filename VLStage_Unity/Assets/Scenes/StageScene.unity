@@ -375,8 +375,8 @@ MonoBehaviour:
   artNetData: {fileID: 11400000, guid: 83c95476c1c5ed142a5f1963727372ed, type: 2}
   dmxAddress: 13
   universe: 2
-  selected: 0
-  added: 0
+  selected: 1
+  added: 1
   panMotor: {fileID: 390773150}
   panMovement: 360
   tiltMovement: 180
@@ -3216,7 +3216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592939256}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.8847971, y: 0, z: 0, w: 0.4659765}
+  m_LocalRotation: {x: 0.9456073, y: 0, z: 0, w: 0.32531035}
   m_LocalPosition: {x: -0.93, y: 4.89, z: 9.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3246,7 +3246,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.125, g: 0.37890625, b: 0, a: 2302.3516}
+  m_Color: {r: 0.4921875, g: 0.02734375, b: 0.44140625, a: 2977.129}
   m_Intensity: 10
   m_Range: 20
   m_SpotAngle: 55
@@ -5610,7 +5610,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898930234}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.8847971, y: 0, z: 0, w: 0.4659765}
+  m_LocalRotation: {x: 0.9456073, y: 0, z: 0, w: 0.32531035}
   m_LocalPosition: {x: -0.93, y: 4.89, z: 9.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5640,7 +5640,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.99609375, g: 0, b: 0, a: 2302.3516}
+  m_Color: {r: 0.4921875, g: 0.02734375, b: 0.44140625, a: 2983.5742}
   m_Intensity: 10
   m_Range: 20
   m_SpotAngle: 55
@@ -5739,8 +5739,8 @@ MonoBehaviour:
   artNetData: {fileID: 11400000, guid: 83c95476c1c5ed142a5f1963727372ed, type: 2}
   dmxAddress: 7
   universe: 2
-  selected: 0
-  added: 0
+  selected: 1
+  added: 1
   panMotor: {fileID: 1967292579}
   panMovement: 360
   tiltMovement: 180
@@ -7276,7 +7276,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.125, g: 0.02734375, b: 0.55859375, a: 2302.3516}
+  m_Color: {r: 0.4921875, g: 0.02734375, b: 0.44140625, a: 2986.7969}
   m_Intensity: 10
   m_Range: 20
   m_SpotAngle: 55
@@ -7664,7 +7664,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.125, g: 0.02734375, b: 0.55859375, a: 2302.3516}
+  m_Color: {r: 0.4921875, g: 0.02734375, b: 0.44140625, a: 2988.086}
   m_Intensity: 10
   m_Range: 20
   m_SpotAngle: 55
@@ -9641,7 +9641,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.76953125, g: 0.671875, b: 1.203125, a: 2645.793}
+  m_Color: {r: 0.4921875, g: 0.02734375, b: 0.44140625, a: 3357.3086}
   m_Intensity: 10
   m_Range: 20
   m_SpotAngle: 55
@@ -9835,8 +9835,8 @@ MonoBehaviour:
   artNetData: {fileID: 11400000, guid: 83c95476c1c5ed142a5f1963727372ed, type: 2}
   dmxAddress: 37
   universe: 2
-  selected: 0
-  added: 0
+  selected: 1
+  added: 1
   panMotor: {fileID: 1191420525}
   panMovement: 360
   tiltMovement: 180
@@ -11747,8 +11747,8 @@ MonoBehaviour:
   artNetData: {fileID: 11400000, guid: 83c95476c1c5ed142a5f1963727372ed, type: 2}
   dmxAddress: 31
   universe: 2
-  selected: 0
-  added: 0
+  selected: 1
+  added: 1
   panMotor: {fileID: 845414383}
   panMovement: 360
   tiltMovement: 180
@@ -12264,7 +12264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858575213}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.8847971, y: 0, z: 0, w: 0.4659765}
+  m_LocalRotation: {x: 0.9456073, y: 0, z: 0, w: 0.32531035}
   m_LocalPosition: {x: -0.93, y: 4.89, z: 9.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12294,7 +12294,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.125, g: 0.37890625, b: 0, a: 2302.3516}
+  m_Color: {r: 0.4921875, g: 0.02734375, b: 0.44140625, a: 2980.3516}
   m_Intensity: 10
   m_Range: 20
   m_SpotAngle: 55
@@ -13184,8 +13184,8 @@ MonoBehaviour:
   artNetData: {fileID: 11400000, guid: 83c95476c1c5ed142a5f1963727372ed, type: 2}
   dmxAddress: 25
   universe: 2
-  selected: 0
-  added: 0
+  selected: 1
+  added: 1
   panMotor: {fileID: 1511031631}
   panMovement: 360
   tiltMovement: 180
@@ -14047,7 +14047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457003465072524262}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.8847971, y: 0, z: 0, w: 0.4659765}
+  m_LocalRotation: {x: 0.9456073, y: 0, z: 0, w: 0.32531035}
   m_LocalPosition: {x: -0.93, y: 4.89, z: 9.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14146,8 +14146,8 @@ MonoBehaviour:
   artNetData: {fileID: 11400000, guid: 83c95476c1c5ed142a5f1963727372ed, type: 2}
   dmxAddress: 1
   universe: 2
-  selected: 0
-  added: 0
+  selected: 1
+  added: 1
   panMotor: {fileID: 6590718691765888301}
   panMovement: 360
   tiltMovement: 180
@@ -14163,7 +14163,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.99609375, g: 0, b: 0, a: 2302.3516}
+  m_Color: {r: 0.4921875, g: 0.02734375, b: 0.44140625, a: 2990.0195}
   m_Intensity: 10
   m_Range: 20
   m_SpotAngle: 55
