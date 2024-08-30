@@ -53,6 +53,11 @@ VirtualStudio/Binaries/*
 VirtualStudio/Intermediate/*
 VirtualStudio/Saved/*
 
+
+VLStage_Unreal/Binaries/*
+VLStage_Unreal/Intermediate/*
+VLStage_Unreal/Saved/*
+
 # Builds
 Build/*
 
