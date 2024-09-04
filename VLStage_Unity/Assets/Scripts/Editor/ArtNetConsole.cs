@@ -171,7 +171,7 @@ namespace IA
                 SelectAll();
             }
             EditorGUILayout.EndHorizontal();
-            activeUniverse = GUILayout.SelectionGrid(activeUniverse, universes, 9);
+            activeUniverse = GUILayout.SelectionGrid(activeUniverse, universes, 9, GUILayout.Width(900));
             EditorGUILayout.BeginHorizontal();
 
             if (activeUniverse != 0)
@@ -308,7 +308,7 @@ namespace IA
             GUILayout.BeginArea(body);
             EditorGUILayout.BeginHorizontal();
 
-            activeView = GUILayout.SelectionGrid(activeView, views, 2);
+            activeView = GUILayout.SelectionGrid(activeView, views, 2, GUILayout.Width(900));
             EditorGUILayout.EndHorizontal();
             if (activeUniverse != 0 && receiveArtNet[activeUniverse - 1])
                 DrawMap();
