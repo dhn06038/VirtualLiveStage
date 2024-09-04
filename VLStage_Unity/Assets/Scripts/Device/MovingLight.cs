@@ -17,6 +17,7 @@ namespace IA
         Transform panMotor;
 
         new Light light;
+        new ParticleSystem particleSystem;
 
         [Header("rotateProps")]
         public float panMovement = 360f;
@@ -87,6 +88,7 @@ namespace IA
             color += Color.white * artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.WHITE]] / 256f;
 
             light.color = color;
+
         }
 
         public override void OnEnable()
