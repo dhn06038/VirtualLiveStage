@@ -29,6 +29,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - This folder is set up for the Unity project and contains stage modeling and a custom DMX package. For DMX integration in Unity, I am using a custom package from [igolinin's DMXtools](https://github.com/igolinin/DMXtools).
 
    Receiving DMX data in Unity
+   
    ![VLStage_Unity-StageScene-WindowsMacLinux-Unity2022 3 20f1__DX11_2024-09-0410-52-09-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7a56e50c-59e4-464a-8762-f043896c3e78)
 
 
