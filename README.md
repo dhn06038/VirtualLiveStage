@@ -15,22 +15,22 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    Using MagicQ to make light's timeline
    
-   ![MagicQ PC (Demo Mode) 2024-09-03 22-07-25](https://github.com/user-attachments/assets/ed166136-eb78-4dc2-9030-ec5f39116787)
+   <img src="https://github.com/user-attachments/assets/ed166136-eb78-4dc2-9030-ec5f39116787" width="80%" height="45%"/>
 
    Receiving DMX data in Unreal Engine
    
-   ![VirtualStudio - Unreal Editor 2024-09-03 22-22-48](https://github.com/user-attachments/assets/a45df2e1-8433-4fe4-b91a-c816428c5174)
+   <img src="https://github.com/user-attachments/assets/a45df2e1-8433-4fe4-b91a-c816428c5174" width="80%" height="45%"/>
 
    Google Drive Link for Demo video
    
    [Unreal with DMX Demo](https://drive.google.com/file/d/1RVlMKlcb47vPCjzlq-o3FS7Vb0a1jMyj/view?usp=drive_link)
 
-2. **VLStage_Unity**
+3. **VLStage_Unity**
    - This folder is set up for the Unity project and contains stage modeling and a custom DMX package. For DMX integration in Unity, I am using a custom package from [igolinin's DMXtools](https://github.com/igolinin/DMXtools).
 
    Receiving DMX data in Unity
-   
-   ![VLStage_Unity-StageScene-WindowsMacLinux-Unity2022 3 20f1__DX11_2024-09-0410-52-09-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7a56e50c-59e4-464a-8762-f043896c3e78)
+
+   <img src="https://github.com/user-attachments/assets/7a56e50c-59e4-464a-8762-f043896c3e78" width="80%" height="45%"/>
 
 
 4. **VLStage_Unreal**
