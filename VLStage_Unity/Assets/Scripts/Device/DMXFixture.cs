@@ -72,6 +72,8 @@ namespace IA
         public const string HARD_SOFT = "Hard / Soft";
         public const string SILENT_NORMAL_BOOST = "Silent / Normal / Boost";
         public const string DIMMER = "Dimmer";
+        public const string RESET = "Reset";
+        public const string EMPTY = "Empty";
     }
     
 }
