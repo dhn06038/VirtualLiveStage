@@ -10,13 +10,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
 ### Folder Structure
 
-1. **VLStage_Unreal**
-   - This folder contains the Unreal Engine project, including stage modeling and the DMX plugin setup to connect MagicQ with Unreal Engine. I am using Unreal’s built-in DMX plugin to achieve this connection.
-
-2. **VLStage_Unity**
-   - This folder is set up for the Unity project and contains stage modeling and a custom DMX package. For DMX integration in Unity, I am using a custom package from [igolinin's DMXtools](https://github.com/igolinin/DMXtools).
-
-3. **VirtualStudio**
+1. **VirtualStudio**
    - This is the main project folder containing the completed Unreal Engine 5.4.3 project. It includes a demo light show synchronized to a song, showcasing the potential of virtual stage design. The light show was primarily created using the MagicQ software to design the timeline, with the option for real-time interaction between MagicQ and Unreal Engine’s light objects via the DMX plugin. The demo video was captured using Unreal’s CineCamera.
 
    Using MagicQ to make light's timeline
@@ -30,7 +24,13 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    Google Drive Link for Demo video
    
    [Unreal with DMX Demo](https://drive.google.com/file/d/1RVlMKlcb47vPCjzlq-o3FS7Vb0a1jMyj/view?usp=drive_link)
-   
+
+2. **VLStage_Unity**
+   - This folder is set up for the Unity project and contains stage modeling and a custom DMX package. For DMX integration in Unity, I am using a custom package from [igolinin's DMXtools](https://github.com/igolinin/DMXtools).
+
+3. **VLStage_Unreal**
+   - This folder contains the Unreal Engine project, including stage modeling and the DMX plugin setup to connect MagicQ with Unreal Engine. I am using Unreal’s built-in DMX plugin to achieve this connection.
+
 
 ### Lighting Implementation with DMX and MagicQ
 
