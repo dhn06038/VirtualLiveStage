@@ -18,7 +18,7 @@ namespace IA
         [SerializeField]
         Transform lightHead;
 
-        new Light light;
+        new Light[] light;
 
         [Header("rotateProps")]
         public float panMovement = 360f;
@@ -81,21 +81,22 @@ namespace IA
         
         void SetColor()
         {
-            var color = light.color;
+            var color = light[0].color;
 
             color.r = artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.RED]] / 256f;
             color.g = artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.GREEN]] / 256f;
             color.b = artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.BLUE]] / 256f;
             color += Color.white * artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.WHITE]] / 256f;
 
-            light.color = color;
+            light[0].color = color;
+            light[1].color = color;
 
         }
 
         public override void OnEnable()
         {
             base.OnEnable();
-            light = GetComponentInChildren<Light>();
+            light = GetComponentsInChildren<Light>();
             artNetData.dmxUpdate.AddListener(UpdateDMX);
             StartCoroutine(UpdateThread());
         }
