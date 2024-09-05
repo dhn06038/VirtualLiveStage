@@ -1,0 +1,169 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.3.2"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 11904,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 2333,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -1.5999999, -1.5999999, -1.5999999 ],
+			"max": [ 1.5999999, 1.5999999, 1.5999999 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 2333,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 2333,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 2333,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 2333,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "M_LensDefault_Master.bin",
+			"byteLength": 154456
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 23808,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27996,
+			"byteOffset": 23808,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27996,
+			"byteOffset": 51804,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 37328,
+			"byteOffset": 79800,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18664,
+			"byteOffset": 117128,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18664,
+			"byteOffset": 135792,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "M_LensDefault_Master_EditorSphere_BaseColor.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "M_LensDefault_Master_EditorSphere",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0,
+					"texCoord": 1,
+					"extensions":
+					{
+						"KHR_texture_transform":
+						{
+							"scale": [ 1.34559786, 1 ]
+						}
+					}
+				}
+			},
+			"alphaMode": "BLEND",
+			"extensions":
+			{
+				"KHR_materials_unlit":
+				{
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "EditorSphere",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "M_LensDefault_Master_EditorSphere_BaseColor",
+			"sampler": 0,
+			"source": 0
+		}
+	],
+	"extensionsUsed": [
+		"KHR_texture_transform",
+		"KHR_materials_unlit"
+	]
+}
