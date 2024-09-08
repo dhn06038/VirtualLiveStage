@@ -64,6 +64,7 @@ namespace IA
         public const string GREEN = "Green";
         public const string BLUE = "Blue";
         public const string WHITE = "White";
+        public const string ALPHA = "Alpha";
         public const string PAN = "Pan";
         public const string TILT = "Tilt";
         public const string ZOOM = "Zoom";
