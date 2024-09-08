@@ -74,6 +74,8 @@ namespace IA
         public const string DIMMER = "Dimmer";
         public const string RESET = "Reset";
         public const string ON = "On";
+        public const string MUL = "Multiply";
+        public const string DIV = "Division";
     }
     
 }
