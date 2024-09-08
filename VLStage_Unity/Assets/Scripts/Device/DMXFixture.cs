@@ -73,7 +73,7 @@ namespace IA
         public const string SILENT_NORMAL_BOOST = "Silent / Normal / Boost";
         public const string DIMMER = "Dimmer";
         public const string RESET = "Reset";
-        public const string EMPTY = "Empty";
+        public const string ON = "On";
     }
     
 }
