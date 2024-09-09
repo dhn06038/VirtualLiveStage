@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
+using System.Drawing;
 using UnityEngine;
 
 namespace IA
@@ -13,18 +14,22 @@ namespace IA
         //public override int getNumberOfChannels { get {return channelFunctions.Count;} }
         public override Dictionary<string, int> getChannelFunctions { get { return channelFunctions; } }
         LineRenderer lineRenderer;
+        LineRenderer[] lineRendererArray;
 
         [SerializeField]
         GameObject laser;
         [SerializeField]
         Transform parent;
 
+        [SerializeField]
+        Transform[] lasers;
+
 
         [Header("rotateProps")]
         public float tiltMovement = 180f;
         float tiltTarget;
         float maxRotSpeed = 100f;
-        private Dictionary<string, int> channelFunctions = new Dictionary<string, int> { { ChannelName.RED, 0 }, { ChannelName.GREEN, 1 }, { ChannelName.BLUE, 2 }, { ChannelName.ALPHA, 3 }, { ChannelName.TILT, 4 }, { ChannelName.MUL, 5 }, { ChannelName.DIV, 6 } };
+        private Dictionary<string, int> channelFunctions = new Dictionary<string, int> { { ChannelName.RED, 0 }, { ChannelName.GREEN, 1 }, { ChannelName.BLUE, 2 }, { ChannelName.ALPHA, 3 }, { ChannelName.TILT, 4 }, { ChannelName.DIV, 5 } };
 
         float tilt;
         bool mul;
@@ -39,7 +44,7 @@ namespace IA
         void SetTilt()
         {
             tiltTarget = (artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.TILT]]) * tiltMovement / 256f;
-            tilt = laser.transform.localEulerAngles.x;
+            tilt = lasers[0].transform.localEulerAngles.x;
         }
 
         void Update()
@@ -53,7 +58,10 @@ namespace IA
 
             if ((0 != dtilt))
             {
-                laser.transform.localEulerAngles = new Vector3(-tiltTarget/2, -90, 0);
+                foreach (Transform t in lasers)
+                {
+                    t.localEulerAngles = new Vector3(-tiltTarget / 2, -90, 0);
+                }
             }
         }
         IEnumerator UpdateThread()
@@ -70,20 +78,23 @@ namespace IA
         
         void SetColor()
         {
-            Color color;
+            UnityEngine.Color color;
             color.r = artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.RED]] / 256f;
             color.g = artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.GREEN]] / 256f;
             color.b = artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.BLUE]] / 256f;
             color.a = artNetData.dmxDataMap[universe - 1][dmxAddress - 1 + (int)channelFunctions[ChannelName.ALPHA]] / 256f;
 
-            lineRenderer.SetColors(color, color);
+            foreach (Transform t in lasers)
+            {
+                t.GetComponent<LineRenderer>().SetColors(color, color);
+            }
+            //lineRenderer.SetColors(color, color);
         }
 
 
         public override void OnEnable()
         {
             base.OnEnable();
-            lineRenderer = parent.GetComponentInChildren<LineRenderer>();
             artNetData.dmxUpdate.AddListener(UpdateDMX);
             StartCoroutine(UpdateThread());
         }
