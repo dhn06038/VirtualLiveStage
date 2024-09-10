@@ -71,9 +71,13 @@ namespace IA
                 int i = 0;
                 foreach (Transform t in laserPan)
                 {
+                    t.localEulerAngles = new Vector3(0, (-1f + (i*0.25f)) * (divTarget/2), 0);
                     i++;
-                    t.localEulerAngles = new Vector3(0, divTarget, 0);
                 }
+                /*for (int i = 0; i < lasers.Length; i++)
+                {
+                    laserPan[i].localEulerAngles = new Vector3(0, (-1f + i * 0.25f) * (divTarget / 2), 0);
+                }*/
             }
         }
         IEnumerator UpdateThread()
