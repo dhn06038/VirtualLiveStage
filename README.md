@@ -6,7 +6,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
 ### Engines Used
 - **Unreal Engine (5.4.3)**
-- **Unity**
+- **Unity (2022.3.20f1)**
 
 ### Folder Structure
 
