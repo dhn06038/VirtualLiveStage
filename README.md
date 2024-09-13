@@ -36,7 +36,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    **Add 6 types of lights and effects in Unity**
 
-   Sharpy, Wash
+   **Sharpy, Wash**
    
    - Sharpy: Sharpy is a high-intensity beam light known for its sharp and concentrated beams of light. It creates precise, narrow beams that can be used for focused lighting on performers or to create dramatic aerial effects.
 
@@ -44,7 +44,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    <img src="https://github.com/user-attachments/assets/4e7b9558-fd71-4a8f-877c-d102dc754c89" width="80%" height="45%"/>
 
-   Strobe, Static
+   **Strobe, Static**
 
    - Strobe: Strobe lights produce rapid, intense flashes of light that create a sense of motion or freezing action on stage. It can also simulate the effect of high-energy moments in a performance.
 
@@ -52,7 +52,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    <img src="https://github.com/user-attachments/assets/5354303a-c466-48b3-9916-b68d16791e49" width="80%" height="45%"/>
 
-   Pyro, Laser
+   **Pyro, Laser**
 
    - Pyro: Pyro refers to pyrotechnic effects that create controlled bursts of fire, sparks, or explosions on stage. It adds a dramatic and intense visual impact.
 
