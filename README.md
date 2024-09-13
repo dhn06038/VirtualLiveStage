@@ -25,15 +25,43 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    
    [Unreal with DMX Demo](https://drive.google.com/file/d/1RVlMKlcb47vPCjzlq-o3FS7Vb0a1jMyj/view?usp=drive_link)
 
-3. **VLStage_Unity**
+2. **VLStage_Unity**
    - This folder is set up for the Unity project and contains stage modeling and a custom DMX package. For DMX integration in Unity, I am using a custom package from [igolinin's DMXtools](https://github.com/igolinin/DMXtools).
+
+   - It works on HDRP environments.(For volumetric of lights)
 
    Receiving DMX data in Unity
 
    <img src="https://github.com/user-attachments/assets/7a56e50c-59e4-464a-8762-f043896c3e78" width="80%" height="45%"/>
 
+   **Add 6 types of lights and effects in Unity**
 
-4. **VLStage_Unreal**
+   **Sharpy, Wash**
+   
+   - Sharpy: Sharpy is a high-intensity beam light known for its sharp and concentrated beams of light. It creates precise, narrow beams that can be used for focused lighting on performers or to create dramatic aerial effects.
+
+   - Wash: Wash lights are used for wide, even coverage across the stage. They provide soft, diffused light that can fill the entire stage with color or general illumination.
+
+   <img src="https://github.com/user-attachments/assets/4e7b9558-fd71-4a8f-877c-d102dc754c89" width="80%" height="45%"/>
+
+   **Strobe, Static**
+
+   - Strobe: Strobe lights produce rapid, intense flashes of light that create a sense of motion or freezing action on stage. It can also simulate the effect of high-energy moments in a performance.
+
+   - Static: Static lights remain fixed in place and provide a continuous, steady light on a particular area or object.
+
+   <img src="https://github.com/user-attachments/assets/5354303a-c466-48b3-9916-b68d16791e49" width="80%" height="45%"/>
+
+   **Pyro, Laser**
+
+   - Pyro: Pyro refers to pyrotechnic effects that create controlled bursts of fire, sparks, or explosions on stage. It adds a dramatic and intense visual impact.
+
+   - Laser: Laser lights emit concentrated, highly focused beams of light, usually in a variety of colors. Lasers can create intricate patterns, geometric shapes, or straight beams that can cut through smoke to create a mesmerizing light show.
+
+   <img src="https://github.com/user-attachments/assets/fd624814-e860-46fb-9deb-3013b5ee786b" width="80%" height="45%"/>
+
+
+3. **VLStage_Unreal**
    - This folder contains the Unreal Engine project, including stage modeling and the DMX plugin setup to connect MagicQ with Unreal Engine. I am using Unreal’s built-in DMX plugin to achieve this connection.
 
 
