@@ -63,7 +63,7 @@ namespace IA
             {
                 foreach (Transform t in lasers)
                 {
-                    t.localEulerAngles = new Vector3(-tiltTarget / 2, -90, 0);
+                    t.localEulerAngles = new Vector3((45f - tiltTarget) / 2, -90, 0);
                 }
             }
             if ((0 != ddiv))
