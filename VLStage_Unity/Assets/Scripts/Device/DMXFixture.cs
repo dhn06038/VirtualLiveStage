@@ -77,6 +77,8 @@ namespace IA
         public const string ON = "On";
         public const string MUL = "Multiply";
         public const string DIV = "Division";
+        public const string COLWHEEL = "ColWheel";
+        public const string SHUTTER = "Shutter";
     }
     
 }
