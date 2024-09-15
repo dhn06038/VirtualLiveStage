@@ -30,10 +30,6 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    - It works on HDRP environments.(For volumetric of lights)
 
-   Receiving DMX data in Unity
-
-   <img src="https://github.com/user-attachments/assets/7a56e50c-59e4-464a-8762-f043896c3e78" width="80%" height="45%"/>
-
    **Add 6 types of lights and effects in Unity**
 
    **Sharpy, Wash**
