@@ -26,7 +26,7 @@ namespace IA
         float tiltTarget;
         float divTarget;
         float maxRotSpeed = 100f;
-        private Dictionary<string, int> channelFunctions = new Dictionary<string, int> { { ChannelName.RED, 0 }, { ChannelName.GREEN, 1 }, { ChannelName.BLUE, 2 }, { ChannelName.ALPHA, 3 }, { ChannelName.TILT, 4 }, { ChannelName.DIV, 5 } };
+        private Dictionary<string, int> channelFunctions = new Dictionary<string, int> { { ChannelName.RED, 0 }, { ChannelName.GREEN, 1 }, { ChannelName.BLUE, 2 }, { ChannelName.ALPHA, 3 }, { ChannelName.DIV, 4 }, { ChannelName.TILT, 5 } };
 
         float tilt;
         float divpoint;
