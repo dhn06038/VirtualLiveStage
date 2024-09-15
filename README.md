@@ -25,6 +25,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    
    [Unreal with DMX Demo](https://drive.google.com/file/d/1RVlMKlcb47vPCjzlq-o3FS7Vb0a1jMyj/view?usp=drive_link)
 
+
 2. **VLStage_Unity**
    - This folder is set up for the Unity project and contains stage modeling and a custom DMX package. For DMX integration in Unity, I am using a custom package from [igolinin's DMXtools](https://github.com/igolinin/DMXtools).
 
@@ -59,6 +60,14 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    **Connect with MagicQ(DMX)**
 
    <img src="https://github.com/user-attachments/assets/145c51be-7495-42e3-9fc7-20008e06fa28" width="80%" height="45%"/>
+
+   **LED Screen(Splitted)**
+
+   For a more realistic LED screen representation, [llcheesell's LEDScreenShader](https://github.com/llcheesell/LEDScreenShader) is used.
+
+   <img src="https://github.com/user-attachments/assets/4347f37c-2087-43b6-9a0a-d7a809848fa9" width="80%" height="45%"/>
+
+   <img src="https://github.com/user-attachments/assets/b8b8dcc9-d11f-40f4-b16f-b83a4dee17db" width="80%" height="45%"/>
 
 
 3. **VLStage_Unreal**
