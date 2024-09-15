@@ -37,7 +37,7 @@ namespace IA
         public override void OnEnable()
         {
             base.OnEnable();
-            light = light = GetComponentsInChildren<Light>();
+            light = GetComponentsInChildren<Light>();
             FindDataMap();
             artNetData.dmxUpdate.AddListener(UpdateDMX);
         }
