@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.llcheesell.led_screen_shader": "https://github.com/llcheesell/LEDScreenShader.git?path=/Assets/LEDScreenShader#v0.1.1",
     "com.unity.burst": "1.8.12",
     "com.unity.collab-proxy": "2.4.4",
     "com.unity.ext.nunit": "1.0.6",

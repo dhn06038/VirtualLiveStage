@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.llcheesell.led_screen_shader": {
+      "version": "https://github.com/llcheesell/LEDScreenShader.git?path=/Assets/LEDScreenShader#v0.1.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "4c145e5e8b5a2d7b4962d983ee9905098a6e1ca4"
+    },
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 0,
