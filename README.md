@@ -21,7 +21,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    
    <img src="https://github.com/user-attachments/assets/a45df2e1-8433-4fe4-b91a-c816428c5174" width="80%" height="45%"/>
 
-   Google Drive Link for Demo video
+   Google Drive Link for Demo video(Recorded with a cine camera).
    
    [Unreal with DMX Demo](https://drive.google.com/file/d/1RVlMKlcb47vPCjzlq-o3FS7Vb0a1jMyj/view?usp=drive_link)
 
