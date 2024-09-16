@@ -13,21 +13,24 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 ### 1. VirtualStudio
    - This is the main project folder containing the completed Unreal Engine 5.4.3 project. It includes a demo light show synchronized to a song, showcasing the potential of virtual stage design. The light show was primarily created using the MagicQ software to design the timeline, with the option for real-time interaction between MagicQ and Unreal Engine’s light objects via the DMX plugin. The demo video was captured using Unreal’s CineCamera.
 
-   Using MagicQ to make light's timeline
+   **Using MagicQ to make light's timeline**
    
    <img src="https://github.com/user-attachments/assets/ed166136-eb78-4dc2-9030-ec5f39116787" width="80%" height="45%"/>
-
-
-   Receiving DMX data in Unreal Engine
+  <br>
+  <br>
+  
+   **Receiving DMX data in Unreal Engine**
    
    <img src="https://github.com/user-attachments/assets/a45df2e1-8433-4fe4-b91a-c816428c5174" width="80%" height="45%"/>
-
-
-   Google Drive Link for Demo video(Recorded with a cine camera).
+   <br>
+   <br>
+   
+   **Google Drive Link for Demo video(Recorded with a cine camera).**
    
    [Unreal with DMX Demo](https://drive.google.com/file/d/1RVlMKlcb47vPCjzlq-o3FS7Vb0a1jMyj/view?usp=drive_link)
 
    <img src="https://github.com/user-attachments/assets/b4a2e747-0e07-40f4-9d4a-5428e4a075a0" width="80%" height="45%"/>
+
 
 
 ### 2. VLStage_Unity
@@ -44,7 +47,8 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - Wash: Wash lights are used for wide, even coverage across the stage. They provide soft, diffused light that can fill the entire stage with color or general illumination.
 
    <img src="https://github.com/user-attachments/assets/4e7b9558-fd71-4a8f-877c-d102dc754c89" width="80%" height="45%"/>
-
+   <br>
+   <br>
 
    **Strobe, Static**
 
@@ -53,7 +57,8 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - Static: Static lights remain fixed in place and provide a continuous, steady light on a particular area or object.
 
    <img src="https://github.com/user-attachments/assets/5354303a-c466-48b3-9916-b68d16791e49" width="80%" height="45%"/>
-
+   <br>
+   <br>
 
    **Pyro, Laser**
 
@@ -62,13 +67,15 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - Laser: Laser lights emit concentrated, highly focused beams of light, usually in a variety of colors. Lasers can create intricate patterns, geometric shapes, or straight beams that can cut through smoke to create a mesmerizing light show.
 
    <img src="https://github.com/user-attachments/assets/fd624814-e860-46fb-9deb-3013b5ee786b" width="80%" height="45%"/>
-
-
+   <br>
+   <br>
+   
    **Connect with MagicQ(DMX)**
 
    <img src="https://github.com/user-attachments/assets/145c51be-7495-42e3-9fc7-20008e06fa28" width="80%" height="45%"/>
-
-
+   <br>
+   <br>
+   
    **LED Screen(Splitted)**
 
    For a more realistic LED screen representation, [llcheesell's LEDScreenShader](https://github.com/llcheesell/LEDScreenShader) is used.
@@ -76,6 +83,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    <img src="https://github.com/user-attachments/assets/4347f37c-2087-43b6-9a0a-d7a809848fa9" width="80%" height="45%"/>
 
    <img src="https://github.com/user-attachments/assets/b8b8dcc9-d11f-40f4-b16f-b83a4dee17db" width="80%" height="45%"/>
+
 
 
 ### 3. VLStage_Unreal
