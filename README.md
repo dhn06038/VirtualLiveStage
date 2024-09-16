@@ -17,9 +17,11 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    
    <img src="https://github.com/user-attachments/assets/ed166136-eb78-4dc2-9030-ec5f39116787" width="80%" height="45%"/>
 
+
    Receiving DMX data in Unreal Engine
    
    <img src="https://github.com/user-attachments/assets/a45df2e1-8433-4fe4-b91a-c816428c5174" width="80%" height="45%"/>
+
 
    Google Drive Link for Demo video(Recorded with a cine camera).
    
@@ -43,6 +45,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    <img src="https://github.com/user-attachments/assets/4e7b9558-fd71-4a8f-877c-d102dc754c89" width="80%" height="45%"/>
 
+
    **Strobe, Static**
 
    - Strobe: Strobe lights produce rapid, intense flashes of light that create a sense of motion or freezing action on stage. It can also simulate the effect of high-energy moments in a performance.
@@ -50,6 +53,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - Static: Static lights remain fixed in place and provide a continuous, steady light on a particular area or object.
 
    <img src="https://github.com/user-attachments/assets/5354303a-c466-48b3-9916-b68d16791e49" width="80%" height="45%"/>
+
 
    **Pyro, Laser**
 
@@ -59,9 +63,11 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    <img src="https://github.com/user-attachments/assets/fd624814-e860-46fb-9deb-3013b5ee786b" width="80%" height="45%"/>
 
+
    **Connect with MagicQ(DMX)**
 
    <img src="https://github.com/user-attachments/assets/145c51be-7495-42e3-9fc7-20008e06fa28" width="80%" height="45%"/>
+
 
    **LED Screen(Splitted)**
 
