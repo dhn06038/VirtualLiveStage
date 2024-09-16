@@ -25,7 +25,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    
    [Unreal with DMX Demo](https://drive.google.com/file/d/1RVlMKlcb47vPCjzlq-o3FS7Vb0a1jMyj/view?usp=drive_link)
 
-   ![pre](https://github.com/user-attachments/assets/b4a2e747-0e07-40f4-9d4a-5428e4a075a0)
+   <img src="https://github.com/user-attachments/assets/b4a2e747-0e07-40f4-9d4a-5428e4a075a0" width="80%" height="45%"/>
 
 
 3. **VLStage_Unity**
