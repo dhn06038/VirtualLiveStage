@@ -28,7 +28,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    <img src="https://github.com/user-attachments/assets/b4a2e747-0e07-40f4-9d4a-5428e4a075a0" width="80%" height="45%"/>
 
 
-### 3. VLStage_Unity
+### 2. VLStage_Unity
    - This folder is set up for the Unity project and contains stage modeling and a custom DMX package. For DMX integration in Unity, I am using a custom package from [igolinin's DMXtools](https://github.com/igolinin/DMXtools).
 
    - It works on HDRP environments.(For volumetric of lights)
@@ -72,7 +72,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    <img src="https://github.com/user-attachments/assets/b8b8dcc9-d11f-40f4-b16f-b83a4dee17db" width="80%" height="45%"/>
 
 
-### 4. VLStage_Unreal
+### 3. VLStage_Unreal
    - This folder contains the Unreal Engine project, including stage modeling and the DMX plugin setup to connect MagicQ with Unreal Engine. I am using Unreal’s built-in DMX plugin to achieve this connection.
 
 
