@@ -84,10 +84,9 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    <img src="https://github.com/user-attachments/assets/b8b8dcc9-d11f-40f4-b16f-b83a4dee17db" width="80%" height="45%"/>
 
-
-
-### 3. VLStage_Unreal
-   - This folder contains the Unreal Engine project, including stage modeling and the DMX plugin setup to connect MagicQ with Unreal Engine. The connection method is the same as the previous project, but a new project is being run to use heavy background assets.
+   Each panel can transmit different screens
+   
+   <img src="https://github.com/user-attachments/assets/fd9cadaf-3d27-4793-9790-8d9f14c709a5" width="80%" height="45%"/>
 
 
 ### Lighting Implementation with DMX and MagicQ
