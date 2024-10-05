@@ -86,7 +86,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    Each panel can transmit different screens
    
-   <img src="https://github.com/user-attachments/assets/fd9cadaf-3d27-4793-9790-8d9f14c709a5" width="80%" height="45%"/>
+   <img src="https://github.com/user-attachments/assets/6e29e502-f97b-4d2e-a858-e14bf66bc55a" width="80%" height="45%"/>
 
 
 ### Lighting Implementation with DMX and MagicQ
