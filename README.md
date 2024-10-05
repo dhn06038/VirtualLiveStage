@@ -14,14 +14,14 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - This is the main project folder containing the completed Unreal Engine 5.4.3 project. It includes a demo light show synchronized to a song, showcasing the potential of virtual stage design. The light show was primarily created using the MagicQ software to design the timeline, with the option for real-time interaction between MagicQ and Unreal Engine’s light objects via the DMX plugin. The demo video was captured using Unreal’s CineCamera.
 
    **Using MagicQ to make light's timeline**
-   
-   <img src="https://github.com/user-attachments/assets/ed166136-eb78-4dc2-9030-ec5f39116787" width="80%" height="45%"/>
+
+   <img src="https://github.com/user-attachments/assets/fe657a72-d195-45cf-ba60-8a09e1843c89" width="80%" height="45%"/>
   <br>
   <br>
   
    **Receiving DMX data in Unreal Engine**
-   
-   <img src="https://github.com/user-attachments/assets/a45df2e1-8433-4fe4-b91a-c816428c5174" width="80%" height="45%"/>
+
+   <img src="https://github.com/user-attachments/assets/366a6aee-6e42-4ac0-8eae-218da7a2bf3d" width="80%" height="45%"/>
    <br>
    <br>
    
@@ -46,7 +46,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    - Wash: Wash lights are used for wide, even coverage across the stage. They provide soft, diffused light that can fill the entire stage with color or general illumination.
 
-   <img src="https://github.com/user-attachments/assets/4e7b9558-fd71-4a8f-877c-d102dc754c89" width="80%" height="45%"/>
+   <img src="https://github.com/user-attachments/assets/0b28e1f0-2c5d-48f2-bb41-2b789d62d22c" width="80%" height="45%"/>
    <br>
    <br>
 
@@ -56,7 +56,7 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    - Static: Static lights remain fixed in place and provide a continuous, steady light on a particular area or object.
 
-   <img src="https://github.com/user-attachments/assets/5354303a-c466-48b3-9916-b68d16791e49" width="80%" height="45%"/>
+   <img src="https://github.com/user-attachments/assets/8baf93ee-7708-4000-8338-4b46b0237a0f" width="80%" height="45%"/>
    <br>
    <br>
 
@@ -66,23 +66,23 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
    - Laser: Laser lights emit concentrated, highly focused beams of light, usually in a variety of colors. Lasers can create intricate patterns, geometric shapes, or straight beams that can cut through smoke to create a mesmerizing light show.
 
-   <img src="https://github.com/user-attachments/assets/fd624814-e860-46fb-9deb-3013b5ee786b" width="80%" height="45%"/>
+   <img src="https://github.com/user-attachments/assets/074037b9-85bd-4c22-b87f-5c74c63f4db1" width="80%" height="45%"/>
    <br>
    <br>
-   
+
    **Connect with MagicQ(DMX)**
 
-   <img src="https://github.com/user-attachments/assets/145c51be-7495-42e3-9fc7-20008e06fa28" width="80%" height="45%"/>
+   <img src="https://github.com/user-attachments/assets/1be1631b-bc4c-477a-9a38-c4a617d3e7cc" width="80%" height="45%"/>
    <br>
    <br>
-   
+
    **LED Screen(Splitted)**
 
    For a more realistic LED screen representation, [llcheesell's LEDScreenShader](https://github.com/llcheesell/LEDScreenShader) is used.
 
-   <img src="https://github.com/user-attachments/assets/4347f37c-2087-43b6-9a0a-d7a809848fa9" width="80%" height="45%"/>
+   <img src="https://github.com/user-attachments/assets/50e9df76-28d2-4ebd-a275-511d16f62e3d" width="80%" height="45%"/>
 
-   <img src="https://github.com/user-attachments/assets/b8b8dcc9-d11f-40f4-b16f-b83a4dee17db" width="80%" height="45%"/>
+   <img src="https://github.com/user-attachments/assets/c9e29eb2-fb36-46ef-aa3d-0a48464513a7" width="80%" height="45%"/>
 
    Each panel can transmit different screens
    
