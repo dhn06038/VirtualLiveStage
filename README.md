@@ -13,17 +13,10 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 ### 1. VirtualStudio
    - This is the main project folder containing the completed Unreal Engine 5.4.3 project. It includes a demo light show synchronized to a song, showcasing the potential of virtual stage design. The light show was primarily created using the MagicQ software to design the timeline, with the option for real-time interaction between MagicQ and Unreal Engine’s light objects via the DMX plugin. The demo video was captured using Unreal’s CineCamera.
 
-   **Using MagicQ to make light's timeline**
-
-   <img src="https://github.com/user-attachments/assets/fe657a72-d195-45cf-ba60-8a09e1843c89" width="80%" height="45%"/>
-  <br>
-  <br>
   
    **Receiving DMX data in Unreal Engine**
 
    <img src="https://github.com/user-attachments/assets/366a6aee-6e42-4ac0-8eae-218da7a2bf3d" width="80%" height="45%"/>
-   <br>
-   <br>
    
    **Google Drive Link for Demo video(Recorded with a cine camera).**
    
@@ -47,8 +40,6 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - Wash: Wash lights are used for wide, even coverage across the stage. They provide soft, diffused light that can fill the entire stage with color or general illumination.
 
    <img src="https://github.com/user-attachments/assets/0b28e1f0-2c5d-48f2-bb41-2b789d62d22c" width="80%" height="45%"/>
-   <br>
-   <br>
 
    **Strobe, Static**
 
@@ -57,8 +48,6 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - Static: Static lights remain fixed in place and provide a continuous, steady light on a particular area or object.
 
    <img src="https://github.com/user-attachments/assets/8baf93ee-7708-4000-8338-4b46b0237a0f" width="80%" height="45%"/>
-   <br>
-   <br>
 
    **Pyro, Laser**
 
@@ -67,14 +56,10 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
    - Laser: Laser lights emit concentrated, highly focused beams of light, usually in a variety of colors. Lasers can create intricate patterns, geometric shapes, or straight beams that can cut through smoke to create a mesmerizing light show.
 
    <img src="https://github.com/user-attachments/assets/074037b9-85bd-4c22-b87f-5c74c63f4db1" width="80%" height="45%"/>
-   <br>
-   <br>
 
    **Connect with MagicQ(DMX)**
 
    <img src="https://github.com/user-attachments/assets/1be1631b-bc4c-477a-9a38-c4a617d3e7cc" width="80%" height="45%"/>
-   <br>
-   <br>
 
    **LED Screen(Splitted)**
 
@@ -90,6 +75,8 @@ The **VirtualLiveStage** repository is dedicated to creating live stages in virt
 
 
 ### Lighting Implementation with DMX and MagicQ
+
+<img src="https://github.com/user-attachments/assets/fe657a72-d195-45cf-ba60-8a09e1843c89" width="80%" height="45%"/>
 
 For stage lighting, this project uses the DMX tool MagicQ by Chamsys. MagicQ offers several advantages for implementing a stage lighting system within Unreal and Unity environments:
 
